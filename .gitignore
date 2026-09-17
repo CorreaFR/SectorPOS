@@ -1,0 +1,53 @@
+## --------------------------------------------------
+## Visual Studio & .NET build artifacts
+## --------------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+## --------------------------------------------------
+## Base de datos SQLite local (creada en runtime)
+## --------------------------------------------------
+*.db
+*.db-shm
+*.db-wal
+SectorPOS.API/SectorPOS.db
+
+## --------------------------------------------------
+## Node & Frontend build artifacts
+## --------------------------------------------------
+node_modules/
+SectorPOS.Frontend/node_modules/
+SectorPOS.Frontend/dist/
+SectorPOS.Frontend/dist-ssr/
+*.local
+
+## --------------------------------------------------
+## Archivos temporales / Logs de dependencias
+## --------------------------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+## --------------------------------------------------
+## Herramientas de IA y grafos locales
+## --------------------------------------------------
+graphify-out/
+.agents/
+
+## --------------------------------------------------
+## Entorno del sistema y editores
+## --------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
