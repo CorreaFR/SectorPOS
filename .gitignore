@@ -41,6 +41,7 @@ pnpm-debug.log*
 ## --------------------------------------------------
 graphify-out/
 .agents/
+actualizar_grafo.bat
 
 ## --------------------------------------------------
 ## Entorno del sistema y editores
